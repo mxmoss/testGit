@@ -10,27 +10,29 @@ mkdir \temp
 cd \temp
 ```
 
-And this steps will retrieve the repo "testGit" from my github account
+This command retrieves the repo "testGit" from my github account (mxmoss)
+```DOS
   git clone https://github.com/mxmoss/testGit
+```
 
 ### I want to make some changes to the local file
-These steps will edit a file (assuming you've done part 1)
+These steps edit a file in the repo (assuming you've done part 1)
 ```DOS
 cd testGit
 notepad TestText.txt
-(type in some info "this is a change by Manas")
+Type in some info. For example: "this is a change by my. My name is..."
 Ctrl-S
 Alt-File-eXit
 ```
 
 ### I want to see the difference between my local files and the repo
-This command will show the differences
+This command shows which files are different from the GitHub repo
 ```DOS
 git status
 ```
 
 ### I want to commit my changes to the local file
-This steps commits the change and add a message explaining the change
+This steps commits the change and adds a message explaining the change
 ```DOS
 git commit -a -m "this is my commit message"
 ```
