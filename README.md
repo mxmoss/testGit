@@ -49,3 +49,4 @@ git push origin master
 * [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Command line reference / cheatsheet] (https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
