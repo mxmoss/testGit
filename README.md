@@ -2,13 +2,13 @@
 Learning more about git
 very small files to try out the weirder scenarios with git
 
-1) How do I get the files from repository?
-Let's say you want to work on a repo locally on your Windows computer.
-These steps will make a directory:
-
-  Start | Run |Cmd
-  mkdir \temp
-  cd \temp
+#1) How do I get the files from repository?<br/>
+Let's say you want to work on a repo locally on your Windows computer. These steps will make a directory:<br/>
+<ul>
+<li>Start | Run |Cmd</li>
+<li>mkdir \temp</li>
+<li>cd \temp</li>
+</ul>
 
 And this steps will retrieve the repo "testGit" from my github account
   git clone https://github.com/mxmoss/testGit
