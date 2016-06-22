@@ -32,7 +32,7 @@ git status
 ```
 
 ### I want to commit my changes to the local file
-This steps commits the change and adds a message explaining the change
+This step commits the change and adds a message explaining the change
 ```DOS
 git commit -a -m "this is my commit message"
 ```
