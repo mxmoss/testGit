@@ -21,11 +21,15 @@ These steps will edit a file (assuming you've done part 1)
   Ctrl-S
   Alt-File-eXit
 
-3) I want to commit my changes to the local file
+3) I want to see the difference between my local files and the repo
+This step will show the differences
+  git status
+
+4) I want to commit my changes to the local file
 This steps commits the change and add a message explaining the change
   git commit -a -m "this is my commit message"
 
-4) I want to sync the remote GitHub repo with my local files
+5) I want to sync the remote GitHub repo with my local files
 This step pushes the local changes to GitHub
   git push origin master
   (it will prompt you for username & password)
