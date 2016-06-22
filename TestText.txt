@@ -4,4 +4,4 @@ Editing in git page
 Line added by Daniel.
 
 A line added by moss
-another line added by moss
+I removed a line -- it used to be here
