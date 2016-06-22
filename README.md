@@ -4,7 +4,8 @@ very small files to try out the weirder scenarios with git
 
 ### How do I get the files from repository?<br/>
 Let's say you want to work on a repo locally on your Windows computer. These steps will make a directory:<br/>
-```Start | Run |Cmd
+```DOS
+Start | Run |Cmd
 mkdir \temp
 cd \temp```
 
