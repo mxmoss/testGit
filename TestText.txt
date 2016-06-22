@@ -1,3 +1,4 @@
+Daniel edited this file on his computer.
 This is a test text file
 
 Editing in git page
