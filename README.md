@@ -44,3 +44,8 @@ git push origin master
 (it will prompt you for username & password)
 ```
 
+
+####Links
+* [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
+* [Complete git reference manual] (https://git-scm.com/doc)
+* [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
