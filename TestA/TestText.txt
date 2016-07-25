@@ -1,0 +1,8 @@
+Daniel edited this file on his computer.
+This is a test text file
+
+Editing in git page
+Line added by Daniel.
+
+A line added by moss
+I removed a line -- it used to be here
