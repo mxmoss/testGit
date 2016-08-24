@@ -35,7 +35,18 @@ git push origin master
 ```
 
 ### What's the easiest way to create a new repo based on existing code on my system?
-TBD
+I use GitHub desktop. With GitHub desktop, simply drag the directory with your code onto the GitHub client.
+It will ask you where you want to create the repo. Accept all defaults. Bam! Repo created.
+
+What about creating a repo from the command line?  
+Nope: Outside of the API, there's no way to create a repo on GitHub via the command line.   
+Instead: create a new repository on GitHub, then 
+Change the current working directory to your local project.
+and push to an existing repository (eg: WeirdOrConfusing) from the command line
+```DOS
+git remote add origin https://github.com/mxmoss/WeirdOrConfusing.git
+git push -u origin master
+```
 
 ### How can I show a web page from within my repo?
 TBD
