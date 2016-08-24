@@ -3,10 +3,50 @@ This is a small repo of small files to try out the more unusual scenarios with g
 
 ### How can I commit to a dev branch, and once that passes testing then commit to master?
 (Rather than committing all changes to the master branch)
-TBD
+There are two simple ways to merge the dev branch into the master.
+1) Through GitHub
+View the branch on Github  
+https://github.com/mxmoss/testGit/tree/Dev  
+
+Click [New pull Request]  
+(Essentially https://github.com/mxmoss/testGit/pull/new/Dev )  
+
+This initiates a pull request.  The pull request checks to see whether the two branches are able to merge. Write an reason for the pull request.
+
+You will see something like this:  
+"mxmoss wants to merge 1 commit into master from Dev"  
+Click 'Merge Pull request'  
+Click [Confirm merge]  
+
+2) Merging via command line.  
+You can perform a manual merge on the command line.
+https://github.com/mxmoss/testGit.git  
+
+```DOS
+git fetch origin
+git checkout -b Dev origin/Dev
+git merge master
+```
+Step 2: Merge the changes and update on GitHub.
+```DOS
+git checkout master
+git merge --no-ff Dev
+git push origin master
+```
 
 ### What's the easiest way to create a new repo based on existing code on my system?
-TBD
+I use GitHub desktop. With GitHub desktop, simply drag the directory with your code onto the GitHub client.
+It will ask you where you want to create the repo. Accept all defaults. Bam! Repo created.
+
+What about creating a repo from the command line?  
+Nope: Outside of the API, there's no way to create a repo on GitHub via the command line.   
+Instead: create a new repository on GitHub, then 
+Change the current working directory to your local project.
+and push to an existing repository (eg: WeirdOrConfusing) from the command line
+```DOS
+git remote add origin https://github.com/mxmoss/WeirdOrConfusing.git
+git push -u origin master
+```
 
 ### How can I show a web page from within my repo?
 TBD
