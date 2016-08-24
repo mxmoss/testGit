@@ -1,7 +1,7 @@
 # testGit
 This is a small repo of small files to try out the more unusual scenarios with git / github
 
-### How can I commit to a build branch, and then once that passes then commit to master?
+### How can I commit to a dev branch, and once that passes testing then commit to master?
 (Rather than committing all changes to the master branch)
 TBD
 
