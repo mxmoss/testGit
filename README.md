@@ -49,7 +49,31 @@ git push -u origin master
 ```
 
 ### How can I show a web page from within my repo?
-TBD
+You have to use a third party service. Because of that, enterprise repos will not work with this solution.  
+To view as a web page, pre-pend this to the URL to the file in github:  
+```DOS
+http://htmlpreview.github.com/?
+```
+
+For example:  
+  http://htmlpreview.github.com/?https://github.com/mxmoss/testGit/blob/master/TestHTML.html
+  
+Alternatively, you could use GitHub pages to render the html 
+(suggestion from [here:](http://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview) )
+#### Fork the repository to your account.
+#### Clone it locally on your machine
+#### Create a gh-pages branch (if one already exists, remove it and create a new one based off master).
+#### Push the branch back to GitHub.
+#### View the pages at http://username.github.com/repo`
+In code:
+```DOS
+git clone git@github.com:username/repo.git
+cd repo
+git branch gh-pages
+# Might need to do this first: git branch -D gh-pages
+git push -u origin gh-pages # Push the new branch back to github
+Go to http://username.github.com/repo
+```
 
 ## Comparison
   Add /compare to the repo's URL, and then provide a basis for comparison
