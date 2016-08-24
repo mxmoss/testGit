@@ -1,6 +1,35 @@
 # testGit
-Learning more about git
-very small files to try out the weirder scenarios with git
+This is a small repo of small files to try out the more unusual scenarios with git / github
+
+### How can I commit to a build branch, and then once that passes then commit to master?
+(Rather than committing all changes to the master branch)
+TBD
+
+### What's the easiest way to create a new repo based on existing code on my system?
+TBD
+
+### How can I show a web page from within my repo?
+TBD
+
+### How can I compare two separate revisions?
+  a) If one of them is the most recent, and the other is 5 revisions ago
+  a) If one of them is 5 revisions ago, and the other is 10 revisions ago
+TBD
+
+### How can I create a milepost or a release version?
+TBD
+
+### How can I view multiple revisions of one file?
+TBD
+
+### How can I get a subset of a repo? (ie: only the subdirectory of the main repo)?
+TBD
+
+### How can I roll back a set of changes?
+TBD
+
+### How can I review the 3 most recent revisions in a repo?
+TBD
 
 ### How do I get the files from repository?<br/>
 Let's say you want to work on a repo locally on your Windows computer. These steps will make a directory:
