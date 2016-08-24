@@ -11,7 +11,7 @@ https://github.com/mxmoss/testGit/tree/Dev
 Click [New pull Request]  
 (Essentially https://github.com/mxmoss/testGit/pull/new/Dev )  
 
-This initiates a pull request.  The pull request checks to see whether the two branchs are able to merge. Write an reason for the pull request.
+This initiates a pull request.  The pull request checks to see whether the two branches are able to merge. Write an reason for the pull request.
 
 You will see something like this:  
 "mxmoss wants to merge 1 commit into master from Dev"  
