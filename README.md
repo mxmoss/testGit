@@ -100,7 +100,19 @@ Typing 96d29b7^^^^^ in the base branch and 96d29b7 in the compare branch compare
   For more information, click this link: https://help.github.com/articles/comparing-commits-across-time/
   
 ### How can I create a milepost or a release version?
-TBD
+
+git tag -a v1.0 -m "Creating the first official version."
+git show v1.0 
+git describe --tags
+touch test
+git add test
+git commit -am "Adding test files"
+git describe --tags
+git push --tags
+
+http://gitready.com/beginner/2009/02/03/tagging.html
+
+
 
 ### How can I view multiple revisions of one file?
 TBD
@@ -161,4 +173,5 @@ git push origin master
 * [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Github Help] (https://help.github.com/articles/differences-between-commit-views/)
 * [Command line reference / cheatsheet] (https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
