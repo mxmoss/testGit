@@ -18,12 +18,12 @@ TBD
   a) If one of them is the most recent, and the other is a 2 weeks ago?  
 Comparisons can be created for arbitrary time periods, like one month or two weeks. To define a time period, type the branch name, followed by a @, and then the date wrapped between a { } notation. For example, typing master@{2weeks} into the base dropdown menu compares the current master branch against the master branch as it was two weeks prior.
 Here's an example of a comparison between two time periods.
-  https://github.com/mxmoss/testGit/compare/master@%7B2weeks%7D...master  
+  https://github.com/mxmoss/testGit/compare/master@{2weeks}...master 
   
   b) Between two specific dates?  
 You can also specify a specific date to compare against. Date formatting must follow the ISO8601 standard, which is YYYY-MM-DD.
-Here's an example comparing a branch from 2016-07-22 against that same branch several days later.
-  https://github.com/mxmoss/testGit/master@%7B07-22-16%7D...master@%7B08-04-16%7D  
+Here's an example comparing a branch from 07/04/2016 against that same branch a month later.
+  https://github.com/mxmoss/testGit/compare/master@{2016-07-04}...master@{2016-08-04}  
 
   c) If one of them is the most recent, and the other is 2 revisions ago?  
 As a shortcut, Git uses the ^ notation to mean "one commit prior."
