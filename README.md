@@ -138,3 +138,7 @@ git push origin master
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Command line reference / cheatsheet] (https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+* [https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_... Git FAQ Scenarios]
+* [http://geant.cern.ch/content/git-tips-and-tricks Git Tips and Tricks]
+* [https://gist.github.com/dmglab/8402579 how to git]
+* [https://confluence.atlassian.com/bitbucketserver/using-branches-in-bitbucket-server-776639968.html Overview of using branches in BitBucket server]
