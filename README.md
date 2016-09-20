@@ -131,14 +131,28 @@ This command pushes the local changes to GitHub
 git push origin master
 (it will prompt you for username & password)
 ```
+####
+* [The git-flow workflow] (http://nvie.com/posts/a-successful-git-branching-model/)
+* Summary: 
+** work off [develop]
+** branch for a [feature] and merge to [develop] when complete
+** branch for a [release] and merge to [develop] when tested
+** merge [develop] to [master] when release is done
 
+* [The GitHub Flow workflow] (http://scottchacon.com/2011/08/31/github-flow.html)
+* Summary:
+** actual workflow used at GitHub
+** [master] is always deployable
+** branch off [master] for a [named-feature]
+** open pull request to merge [named-feature] to [master] when complete & tested
+** someone else reviews the changes and then merge into master
+** deploy immediately
 
 ####Links
 * [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Command line reference / cheatsheet] (https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-* [https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_... Git FAQ Scenarios]
-* [http://geant.cern.ch/content/git-tips-and-tricks Git Tips and Tricks]
-* [https://gist.github.com/dmglab/8402579 how to git]
-* [https://confluence.atlassian.com/bitbucketserver/using-branches-in-bitbucket-server-776639968.html Overview of using branches in BitBucket server]
+* [Git FAQ Scenarios] (https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_...)
+* [Git Tips and Tricks] (http://geant.cern.ch/content/git-tips-and-tricks)
+* [how to git] (https://gist.github.com/dmglab/8402579)
