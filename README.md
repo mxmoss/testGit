@@ -131,24 +131,30 @@ This command pushes the local changes to GitHub
 git push origin master
 (it will prompt you for username & password)
 ```
-####
-* [The git-flow workflow] (http://nvie.com/posts/a-successful-git-branching-model/)
-* Summary: 
-** work off [develop]
-** branch for a [feature] and merge to [develop] when complete
-** branch for a [release] and merge to [develop] when tested
-** merge [develop] to [master] when release is done
 
-* [The GitHub Flow workflow] (http://scottchacon.com/2011/08/31/github-flow.html)
-* Summary:
-** actual workflow used at GitHub
-** [master] is always deployable
-** branch off [master] for a [named-feature]
-** open pull request to merge [named-feature] to [master] when complete & tested
-** someone else reviews the changes and then merge into master
-** deploy immediately
+## Workflows
+### [The git-flow workflow] (http://nvie.com/posts/a-successful-git-branching-model/)
+Summary: 
+* work off [develop]
+* branch for a [feature] and merge to [develop] when complete
+* branch for a [release] and merge to [develop] when tested
+* merge [develop] to [master] when release is done
 
-####Links
+### [The GitHub Flow workflow] (http://scottchacon.com/2011/08/31/github-flow.html)
+Summary:
+* actual workflow used at GitHub
+* [master] is always deployable
+* branch off [master] for a [named-feature]
+* open pull request to merge [named-feature] to [master] when complete & tested
+* someone else reviews the changes and then merge into master
+* deploy immediately
+
+### [This site has some other workflows](http://blog.endpoint.com/2014/05/git-workflows-that-work.html)
+* Master only workflow
+* Skullcandy workflow
+* Backcountry workflow
+
+###Links
 * [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
