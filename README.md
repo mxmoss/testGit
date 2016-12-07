@@ -34,6 +34,19 @@ git merge --no-ff Dev
 git push origin master
 ```
 
+###How does this work with other people in my team?###
+When working in Github on the same file:
+* Working from an existing Master
+* create a Branch off Master. 
+  Use a name like "yourname-featname"
+  eg: moss-smallfeat
+* Make & test changes
+* When the changes are done, create a pull request
+* The person in charge of code review will review the changes
+* The code reveiewer accepts the pull request
+* The changes from the branch will be merged into the Master
+* After that, the branch can be deleted
+
 ### What's the easiest way to create a new repo based on existing code on my system?
 I use GitHub desktop. With GitHub desktop, simply drag the directory with your code onto the GitHub client.
 It will ask you where you want to create the repo. Accept all defaults. Bam! Repo created.
