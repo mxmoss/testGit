@@ -175,3 +175,12 @@ Summary:
 * [Git FAQ Scenarios] (https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_...)
 * [Git Tips and Tricks] (http://geant.cern.ch/content/git-tips-and-tricks)
 * [how to git] (https://gist.github.com/dmglab/8402579)
+
+### Finding Projects
+* [Explore GitHub projects] (https://github.com/explore)
+* [Top 25 trending GitHub repositories] (https://github.com/trending)
+* [Beginner-friendly list of open-source projects] (https://github.com/MunGell/awesome-for-beginners)
+* [The Most Forked projects on GitHub] (https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
+* [The Most Starred projects on GitHub] (https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
+* [The Awesome List](https://github.com/sindresorhus/awesome)- a comprehensive list of topics re: software development
+* [Highlist of the "most interesting" repositories](http://gitmostwanted.com/)
