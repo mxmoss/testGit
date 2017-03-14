@@ -92,7 +92,7 @@ Typing 96d29b7^^^^^ in the base branch and 96d29b7 in the compare branch compare
 TBD
 
 ### How can I view multiple revisions of one file?
-TBD
+I'd like to see all history for one specific file.
 
 ### How can I get a subset of a repo? (ie: only the subdirectory of the main repo)?
 TBD
