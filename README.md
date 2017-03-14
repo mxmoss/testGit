@@ -93,7 +93,9 @@ TBD
 
 ### How can I view multiple revisions of one file?
 I'd like to see all history for one specific file.
-
+```
+git log -p <filename>
+```
 ### How can I get a subset of a repo? (ie: only the subdirectory of the main repo)?
 TBD
 
