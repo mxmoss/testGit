@@ -170,6 +170,7 @@ Summary:
 * Backcountry workflow
 
 ###Links
+* [Good description of GitHub flow] (https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
 * [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
 * [Complete git reference manual] (https://git-scm.com/doc)
 * [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -177,6 +178,7 @@ Summary:
 * [Git FAQ Scenarios] (https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_...)
 * [Git Tips and Tricks] (http://geant.cern.ch/content/git-tips-and-tricks)
 * [how to git] (https://gist.github.com/dmglab/8402579)
+* [Git clients for Windows and other OS] (https://git-scm.com/download/gui/windows)
 
 ### Finding Projects
 * [Explore GitHub projects] (https://github.com/explore)
