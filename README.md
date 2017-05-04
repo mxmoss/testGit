@@ -103,7 +103,12 @@ TBD
 TBD
 
 ### How can I review the 3 most recent revisions in a repo?
-TBD
+Just as git log will show you revisions for a file, it can also list commits.
+Change to the directory and issue this command:
+```
+git log -3 
+```
+
 
 ### How do I get the files from repository?<br/>
 Let's say you want to work on a repo locally on your Windows computer. These steps will make a directory:
