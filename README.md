@@ -34,12 +34,13 @@ git merge --no-ff Dev
 git push origin master
 ```
 
-###How does this work with other people in my team?###
+### How does this work with other people in my team?
+
 When working in Github on the same file:
 * Working from an existing Master
 * create a Branch off Master. 
-  Use a name like "yourname-featname"
-  eg: moss-smallfeat
+  * Use a name like "yourname-featname"
+  * eg: moss-smallfeat
 * Make & test changes
 * When the changes are done, create a pull request
 * The person in charge of code review will review the changes
@@ -67,26 +68,45 @@ TBD
 ## Comparison
   Add /compare to the repo's URL, and then provide a basis for comparison
   
+## How To Temporarily Switch to a Previous Commit?
+git checkout <commit>
+
+This will detach your HEAD, that is, leave you with no branch checked out. The help says "You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by performing another checkout."
+Example:
+git checkout 0d1d7fc32
+
+To get back to the most current commit, run checkout again with the branch name:
+git checkout master
+
+  
 ### How can I compare two separate revisions?  
   a) If one of them is the most recent, and the other is a 2 weeks ago?  
 Comparisons can be created for arbitrary time periods, like one month or two weeks. To define a time period, type the branch name, followed by a @, and then the date wrapped between a { } notation. For example, typing master@{2weeks} into the base dropdown menu compares the current master branch against the master branch as it was two weeks prior.
+
 Here's an example of a comparison between two time periods.
+```
   https://github.com/mxmoss/testGit/compare/master@{2weeks}...master 
+```
   
   b) Between two specific dates?  
 You can also specify a specific date to compare against. Date formatting must follow the ISO8601 standard, which is YYYY-MM-DD.
+
 Here's an example comparing a branch from 07/04/2016 against that same branch a month later.
+```
   https://github.com/mxmoss/testGit/compare/master@{2016-07-04}...master@{2016-08-04}  
+```
 
   c) If one of them is the most recent, and the other is 2 revisions ago?  
 As a shortcut, Git uses the ^ notation to mean "one commit prior."
 You can use this notation to compare a single commit or branch against its immediate predecessors. 
 For example, 96d29b7^^^^^ indicates five commits prior to 96d29b7, because there are five ^ marks. 
 Typing 96d29b7^^^^^ in the base branch and 96d29b7 in the compare branch compares the five commits made before 96d29b7 with the 96d29b7 commit.
+
   This url shows a comparison between the current revision and three commits ago
+```
   https://github.com/mxmoss/testGit/compare/master^^^...master  
-  
-  For more information, click this link: https://help.github.com/articles/comparing-commits-across-time/
+```
+  For more information, [click this link](https://help.github.com/articles/comparing-commits-across-time/)
   
 ### How can I create a milepost or a release version?
 TBD
@@ -103,6 +123,7 @@ TBD
 TBD
 
 ### How can I review the 3 most recent revisions in a repo?
+
 Just as git log will show you revisions for a file, it can also list commits.
 Change to the directory and issue this command:
 ```
@@ -111,6 +132,7 @@ git log -3
 
 
 ### How do I get the files from repository?<br/>
+
 Let's say you want to work on a repo locally on your Windows computer. These steps will make a directory:
 ```DOS
 Start | Run |Cmd
@@ -153,14 +175,16 @@ git push origin master
 ```
 
 ## Workflows
-### [The git-flow workflow] (http://nvie.com/posts/a-successful-git-branching-model/)
+### [The git-flow workflow](http://nvie.com/posts/a-successful-git-branching-model/)
+
 Summary: 
 * work off [develop]
 * branch for a [feature] and merge to [develop] when complete
 * branch for a [release] and merge to [develop] when tested
 * merge [develop] to [master] when release is done
 
-### [The GitHub Flow workflow] (http://scottchacon.com/2011/08/31/github-flow.html)
+### [The GitHub Flow workflow](http://scottchacon.com/2011/08/31/github-flow.html)
+
 Summary:
 * actual workflow used at GitHub
 * [master] is always deployable
@@ -170,26 +194,27 @@ Summary:
 * deploy immediately
 
 ### [This site has some other workflows](http://blog.endpoint.com/2014/05/git-workflows-that-work.html)
+
 * Master only workflow
 * Skullcandy workflow
 * Backcountry workflow
 
 ###Links
-* [Good description of GitHub flow] (https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
-* [Understanding the GitHub flow] (https://guides.github.com/introduction/flow/)
-* [Complete git reference manual] (https://git-scm.com/doc)
-* [using Markdown to format the readme.md] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Command line reference / cheatsheet] (https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-* [Git FAQ Scenarios] (https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_...)
-* [Git Tips and Tricks] (http://geant.cern.ch/content/git-tips-and-tricks)
-* [how to git] (https://gist.github.com/dmglab/8402579)
-* [Git clients for Windows and other OS] (https://git-scm.com/download/gui/windows)
+* [Good description of GitHub flow](https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
+* [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+* [Complete git reference manual](https://git-scm.com/doc)
+* [using Markdown to format the readme.md](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Command line reference / cheatsheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+* [Git FAQ Scenarios](https://git.wiki.kernel.org/index.php/Git_FAQ#How_do_I_...)
+* [Git Tips and Tricks](http://geant.cern.ch/content/git-tips-and-tricks)
+* [how to git](https://gist.github.com/dmglab/8402579)
+* [Git clients for Windows and other OS](https://git-scm.com/download/gui/windows)
 
 ### Finding Projects
-* [Explore GitHub projects] (https://github.com/explore)
-* [Top 25 trending GitHub repositories] (https://github.com/trending)
-* [Beginner-friendly list of open-source projects] (https://github.com/MunGell/awesome-for-beginners)
-* [The Most Forked projects on GitHub] (https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
-* [The Most Starred projects on GitHub] (https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
+* [Explore GitHub projects](https://github.com/explore)
+* [Top 25 trending GitHub repositories](https://github.com/trending)
+* [Beginner-friendly list of open-source projects](https://github.com/MunGell/awesome-for-beginners)
+* [The Most Forked projects on GitHub](https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
+* [The Most Starred projects on GitHub](https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
 * [The Awesome List](https://github.com/sindresorhus/awesome)- a comprehensive list of topics re: software development
 * [Highlist of the "most interesting" repositories](http://gitmostwanted.com/)
