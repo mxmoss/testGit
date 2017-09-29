@@ -10,3 +10,6 @@ I removed a line -- it used to be here
 Hey! Here's a new feature - this riddle:
 Q; What is a programmer's favorite hangout?
 A: Foo Bar
+
+
+This line of text represents a bug fix to code from March 14th, 2017
