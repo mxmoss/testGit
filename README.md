@@ -174,6 +174,17 @@ git push origin master
 (it will prompt you for username & password)
 ```
 
+### I can't sync with the remote repo
+I get an error message: "You might need to open a shell and debug the state of this repo."
+Here's what to do:
+- Open a git shell  (in Github desktop choose Repository | Open in Command Prompt)
+- run ```git status```
+See what the suggestions are.  In this case for me it said:
+```
+Your branch is based on 'origin/manas-wizard' but the upstream is gone.
+(use "git branch --unset-upstream" to fixup)
+```
+
 ## Workflows
 ### [The git-flow workflow](http://nvie.com/posts/a-successful-git-branching-model/)
 
