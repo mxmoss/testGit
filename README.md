@@ -185,6 +185,32 @@ Your branch is based on 'origin/manas-wizard' but the upstream is gone.
 (use "git branch --unset-upstream" to fixup)
 ```
 
+### I have a release branch. I want to include one change from Develop in the release
+This is called Cherry-picking commits into a branch.
+This doesn't work very well for binaries, but works great for code changes.
+
+Let's say you have a late commit in the "Develop" branch.
+* Change order of menu items 
+Made changes in menus (commit: ab0f745) — joe.smith / githubweb
+
+You want to merge this into the Release branch (called Prod-5.4 for this example)
+Here's what to do:
+```
+git checkout <dest branch>
+git cherry-pick <commit (don't need to specify branch)>
+```
+
+example:
+```
+git checkout Prod-5.4
+git cherry-pick ab0f745
+```
+
+The end result is that the cherry-picked change from the "develop" branch
+Is merged into the release branch.
+
+
+
 ## Workflows
 ### [The git-flow workflow](http://nvie.com/posts/a-successful-git-branching-model/)
 
