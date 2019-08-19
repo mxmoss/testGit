@@ -209,6 +209,40 @@ git cherry-pick ab0f745
 The end result is that the cherry-picked change from the "develop" branch
 Is merged into the release branch.
 
+### I want to temporarily save my current changes and work on something else
+This is called Stashing.
+Stash current changes so you can work on something else
+example:
+```
+git stash 
+```
+[See here](https://increment.com/open-source/more-productive-git/#it-s-my-stash) for more discussion.
+
+### I messed up somewhere and just want to reset evertying
+Reset current working state to the last commit or last known good commit
+example:
+```
+git reset useful_func.clj
+```
+[See here](https://increment.com/open-source/more-productive-git/#reset-this)
+
+### I committed some changes, but forgot a few
+Use "amend" to add changes or comments to a commit
+example:
+```
+git commit --amend --no-edit 
+```
+[See here](https://increment.com/open-source/more-productive-git/#it-s-an-amendment)
+
+
+### Can I use git to track down when and where bugs were added to the code?
+Use bisect to track down bugs
+```
+git bisect start 
+git bisect bad 
+```
+[See here](https://increment.com/open-source/more-productive-git/#i-am-bisect-and-so-can-you)
+
 
 
 ## Workflows
