@@ -244,6 +244,19 @@ git bisect bad
 [See here](https://increment.com/open-source/more-productive-git/#i-am-bisect-and-so-can-you)
 
 
+## Using Git on Open Source Projects
+
+### The basics
+The basic step when committing to open source projects is to fork the project. 
+Then you create your branch and you make a pull request. 
+However, from time to time, you need to adjust your branch based on the latest changes.
+This is how you sync your fork to the original one.
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+[See here](https://dzone.com/articles/my-most-used-git-commands-on-open-source-projects)
 
 ## Workflows
 ### [The git-flow workflow](http://nvie.com/posts/a-successful-git-branching-model/)
