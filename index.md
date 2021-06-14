@@ -36,6 +36,42 @@ During the course of the tutorial each attendee will practice using git commands
 - Create / clone a repo
 - Commits / Updates / compare
 - Markdown language for Readme
+- Excercise
+- start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+> //Create a repository and get comfortable with editing & reading status
+> 
+> git init foo
+> 
+> cd foo
+> 
+> (create readme.md)
+> 
+> (create index.md)
+> 
+> git status 
+> 
+> git add .
+> 
+> git status
+> 
+> (edit readme.md)
+> 
+> git status
+> 
+> git commit *
+> 
+> (edit the commit message)
+> 
+> git status
+> 
+> (edit index.md)
+> 
+> git status
+> 
+> git commit -a -m"use my name" 
+
 - Revert
 - Branch
 - Merge 
@@ -64,3 +100,63 @@ During the course of the tutorial each attendee will practice using git commands
 ## Conclusion
 - Q & A
 - Next Steps
+
+
+
+To integrate:
+git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+
+//How to create the remote repo from the command line?
+git remote add foo https://github.com/mxmoss/foo
+git remote -v
+git push foo master
+(enter credentials)
+
+//Delete untracked
+erase untracked.txt
+git rm untracked.txt
+git commit -m"removed untracked.txt"
+git status
+
+//Create a branch and make some enhancements
+
