@@ -36,7 +36,7 @@ During the course of the tutorial each attendee will practice using git commands
 - Create / clone a repo
 - Commits / Updates / compare
 - Markdown language for Readme
-- Excercise
+- Exercise
 - start a working area (see also: git help tutorial)
    clone      Clone a repository into a new directory
    init       Create an empty Git repository or reinitialize an existing one
@@ -77,7 +77,7 @@ During the course of the tutorial each attendee will practice using git commands
 - Merge 
 
 ## Intermediate Concepts
-- permissions
+- Permissions
 - following repos
 - pull request
 - The Github flow method
